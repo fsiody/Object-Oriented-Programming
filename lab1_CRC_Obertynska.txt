@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Postaæ",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Poruszanie siê krain¹",
+      "Rozpoczêcie walki",
+      "Zarz¹dzanie broni¹",
+      "Zarz¹dzanie zbroj¹",
+      "Zarz¹dzanie tarcz¹",
+      "Zadawanie obra¿eñ broni¹",
+      "Zadawanie obra¿eñ magi¹  ",
+      "Otrzymanie obra¿eñ"
+    ],
+    "collaborators": [
+      "Kraina",
+      "Broñ",
+      "Zbroja",
+      "Tarcza"
+    ]
+  },
+  {
+    "name": "Ekwipunek",
+    "superclasses": "",
+    "subclasses": "Broñ, Zbroja, Tarcza",
+    "type": 1,
+    "responsibilities": [
+      "Dostarcza informacje o tym jak dany przedmiot wp³ywa na obra¿enie",
+      "Dostarcza informacje o typie ekwipunku",
+      ""
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "Kraina",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "zarz¹dzanie danymi, które dotycz¹ krainy",
+      "weryfikacja, czy dana postaæ mo¿e przebywaæ w tym miejscu "
+    ],
+    "collaborators": [
+      "Postaæ"
+    ]
+  },
+  {
+    "name": "Walka",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Wyznaczenie czy walka siê skoñczy³a, kto wygra³, i doœwiadczenia które otrzymuj¹ uczestnicy ",
+      "Rozpoczêcie kolejnej rundy",
+      ""
+    ],
+    "collaborators": [
+      "Postaæ",
+      "Runda"
+    ]
+  },
+  {
+    "name": "Runda",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Wyznaczenie kto pierwszy zadaje obra¿eñ",
+      "Runda w której obie postaci wzajemnie zadaj¹ obra¿eñ, zwraca wynik"
+    ],
+    "collaborators": [
+      "Walka",
+      "Postaæ"
+    ]
+  }
+]
