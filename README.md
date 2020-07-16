@@ -1,6 +1,6 @@
 # Object-Oriented-Programming
 
-##AGH WIEiT Informatyka
+## AGH WIEiT Informatyka
 
-######Programowanie Obiektowe
-######Projektowanie Obiektowe
+###### Programowanie Obiektowe
+###### Projektowanie Obiektowe
